@@ -3,8 +3,12 @@
   --white:#fff;
   --blue:#10B0E6;
   --dark-blue:#08212f;
-  --green:#1DCFC3;
 }
+
+ h2, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 html {
   box-sizing: border-box;
