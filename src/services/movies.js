@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const urlDomain = "http://api.themoviedb.org/3";
+const urlDomain = "https://api.themoviedb.org/3";
 const language = "es"
 const apiKey = "22be462e6d3de1dbab03d1ca50847b5a";
 

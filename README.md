@@ -1,73 +1,51 @@
-# Getting Started with Create React App
+# ECOMSUR Prueba tecnica 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es mi prueba tecnica para el proceso de seleccion en Ecomsur para el cargo de “Frontend Developer”
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contenido
+La APP contiene un listado de peliculas que podemos filtrar por nombre en un buscador, ademas brinda la informacion detallada de estas mismas, el trailer y peliculas relacionadas con la busqueda en otra pagina.
 
 
-http://abdulhannanali.github.io/moviedb-popular-moives/#/movies/497698
+## Antes de codificar
+
+Para empezar,me tome el tiempo de leer y entender todo lo que me pedian realizar, seguido a esto cree un diseño simple en Draw.io para tener una idea de como empezar a crear mi proyecto, me apoye de ideas en Pinterest, busque una paleta de colores y una vez definido todo esto ya estaba lista para empezar.
+
+
+### Diagramas y estilo del proyecto
+
+<img src="./img1.jpg" width="400" height="auto">
+<img src="./img2.jpg" width="400" height="auto">
+
+
+### Estructura de carpetas 
+
+Cree el proyecto con el nombre Ecomsur y una vez creado, añadi las carpetas que necesitaba para organizar el codigo y entenderlo mejor.
+Para esto se creo la siguiente estructura: 
+
+```
+src
+└───assets --> Todos los recursos png o svg.    
+│
+└───constants --> Las  constantes que seran usadas por mas de un componente
+│
+└───pages --> Las paginas en las cuales navegara el usuario
+│   └───home --> Todo lo relacionado con el componente home
+│   └───detail-movie --> Todo lo relacionado con el componente detail-movie
+└───services --> las funciones que llamen a la API
+    │
+    │   
+```
+## Librerias
+
+- react-router-dom --> para la navegacion 
+- react-paginate --> para la paginacion
+- Firebase --> para el deploy
+- Axios --> para hacer los request
+
+## Codificando 
+
+Se empezo creando la estructura HTML con el CSS del Home y el del detalle de la pelicula para la version Desktop y no se empezo por movil primero ya que el diseño inicial no contaba contaba con este. 
+
+Una vez terminada la maquetacion se inicio con implementar las funciones que llamarian a la API, y se empezo su implementacion primero en el Home y luego en el detalle de la pelicula. 
+
+Por ultimo, se le agrego la funcionalidad del filtro al campo de texto, a las imagenes del home que lleven al detalle y que el paginador actualizara la vista.
