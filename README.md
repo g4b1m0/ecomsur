@@ -44,8 +44,8 @@ src
 
 ## Codificando 
 
-Se empezo creando la estructura HTML con el CSS del Home y el del detalle de la pelicula para la version Desktop y no se empezo por movil primero ya que el diseño inicial no contaba contaba con este. 
+Se empezo creando la estructura HTML con el CSS del Home y el del detalle de la pelicula para la version Desktop, no se empezo por movil primero ya que el diseño inicial no contaba contaba con este. 
 
-Una vez terminada la maquetacion se inicio con implementar las funciones que llamarian a la API, y se empezo su implementacion primero en el Home y luego en el detalle de la pelicula. 
+Una vez terminada la maquetacion, inicie con la implementacion de las funciones que llamarian a la API, y se empezo su implementacion primero en el Home y luego en el detalle de la pelicula. 
 
-Por ultimo, se le agrego la funcionalidad del filtro al campo de texto, a las imagenes del home que lleven al detalle y que el paginador actualizara la vista.
+Por ultimo, se agrego la funcionalidad del filtro al campo de texto, a las imagenes del home que llevan al detalle y que el paginador actualizara la vista.
